@@ -1,2 +1,2 @@
 # javascript-sdk-design-cn
-javascript-sdk-design 中文版
+[javascript-sdk-design](https://github.com/hueitan/javascript-sdk-design) 的中文版
