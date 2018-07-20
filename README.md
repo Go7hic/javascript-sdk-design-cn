@@ -700,6 +700,7 @@ if (typeof console === "undefined") {
 <h2 align="center">
  <img src="http://i.imgur.com/rHWC1r1.png" alt="encodeuri or encodeuricomponent"/>
 </h2>
+
 #### 用回调函数加载脚本
 
 异步加载代码增加回调事件。
@@ -725,7 +726,9 @@ function loadScript(url, callback) {
   };
 }
 ```
+
 #### 只能调用一次的函数
+
 这里展示如何实现只能一次调用。
 
 >偶尔你希望一个函数只能被调用一次。经常这些函数在事件监听列表，很难管理。当然你可以简单的把它从监听列表删除，但是有时候希望完美，你只是希望函数只能被调用一次。下面的JavaScript函数让它变为可能！
